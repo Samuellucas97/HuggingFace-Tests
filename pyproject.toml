@@ -10,7 +10,8 @@ requires-python = ">=3.11,<4.0"
 dependencies = [
     "transformers (>=4.51.2,<5.0.0)",
     "langchain (>=0.3.23,<0.4.0)",
-    "langchain-huggingface (>=0.1.2,<0.2.0)"
+    "langchain-huggingface (>=0.1.2,<0.2.0)",
+    "poetry-plugin-dotenv (>=2.9.0,<3.0.0)"
 ]
 
 [tool.poetry]
